@@ -8,8 +8,8 @@ Awesome syntax highlighting for your JavaScript
 
 # How it looks
 
-![Snake](http://goatslacker.github.com/mango.vim/mango1.png)
+![Snake](http://goatslacker.github.com/mango.vim/images/mango1.png)
 
-![forge](http://goatslacker.github.com/mango.vim/mango2.png)
+![forge](http://goatslacker.github.com/mango.vim/images/mango2.png)
 
-![JSHINT](http://goatslacker.github.com/mango.vim/mango3.png)
+![JSHINT](http://goatslacker.github.com/mango.vim/images/mango3.png)
