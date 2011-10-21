@@ -4,7 +4,20 @@ Awesome syntax highlighting for your JavaScript
 
 # Installing
 
+Git
+
     $ git clone https://github.com/goatslacker/mango.vim && make
+
+Download from vim.org
+   
+    http://www.vim.org/scripts/script.php?script_id=3779
+    
+Place in your `.vimrc.
+
+    " syntax highlighting
+    syntax on 
+    set t_Co=256 
+    color mango
 
 # How it looks
 
