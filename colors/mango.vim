@@ -1,6 +1,6 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.0
+" Version: 1.1
 
 set background=dark
 set t_Co=256
