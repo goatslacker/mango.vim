@@ -3,6 +3,7 @@
 " Version: 1.0
 
 set background=dark
+set t_Co=256
 highlight clear
 let g:colors_name = "mango"
 
@@ -83,7 +84,7 @@ hi link javaScriptDocParam        Silver
 hi link javaScriptPrototype       Pink2
 "syntax keyword javaScriptSource         import export
 hi link javaScriptSource          Red
-"syntax keyword javaScriptType           const undefined var void yield 
+"syntax keyword javaScriptType           const undefined var void yield
 hi link javaScriptType            Orange
 "syntax keyword javaScriptOperator       delete new in instanceof let typeof
 hi link javaScriptOperator        Orange
