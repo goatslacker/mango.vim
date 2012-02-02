@@ -12,7 +12,7 @@ let green = 106
   if &background == "light"
     hi Green    ctermfg=106         ctermbg=NONE        cterm=NONE
     hi Orange   ctermfg=208         ctermbg=NONE        cterm=NONE
-    hi Peach    ctermfg=215         ctermbg=NONE        cterm=NONE
+    hi Peach    ctermfg=216         ctermbg=NONE        cterm=NONE
     hi Purple   ctermfg=141         ctermbg=NONE        cterm=NONE
   endif
   if &background == "dark"
@@ -34,24 +34,24 @@ let green = 106
 
 " SyntaxHighlighting: {
   if &background == "light"
-    hi CursorLine     ctermfg=NONE        ctermbg=230         cterm=NONE
+    hi CursorLine     ctermfg=NONE        ctermbg=194         cterm=NONE
     hi Normal         ctermfg=238         ctermbg=NONE        cterm=NONE
     hi Comment        ctermfg=250         ctermbg=NONE        cterm=NONE
     hi String         ctermfg=106         ctermbg=NONE        cterm=NONE
     hi Statement      ctermfg=208         ctermbg=NONE        cterm=NONE
-    hi Conditional    ctermfg=215         ctermbg=NONE        cterm=NONE
-    hi Repeat         ctermfg=215         ctermbg=NONE        cterm=NONE
-    hi Label          ctermfg=215         ctermbg=NONE        cterm=NONE
+    hi Conditional    ctermfg=216         ctermbg=NONE        cterm=NONE
+    hi Repeat         ctermfg=216         ctermbg=NONE        cterm=NONE
+    hi Label          ctermfg=216         ctermbg=NONE        cterm=NONE
     hi Operator       ctermfg=202         ctermbg=NONE        cterm=NONE
-    hi Keyword        ctermfg=215         ctermbg=NONE        cterm=NONE
-    hi PreProc        ctermfg=215         ctermbg=NONE        cterm=NONE
+    hi Keyword        ctermfg=216         ctermbg=NONE        cterm=NONE
+    hi PreProc        ctermfg=216         ctermbg=NONE        cterm=NONE
     hi Include        ctermfg=141         ctermbg=NONE        cterm=NONE
-    hi Define         ctermfg=215         ctermbg=NONE        cterm=NONE
+    hi Define         ctermfg=216         ctermbg=NONE        cterm=NONE
     hi Macro          ctermfg=141         ctermbg=NONE        cterm=NONE
     hi PreCondit      ctermfg=141         ctermbg=NONE        cterm=NONE
     hi Type           ctermfg=208         ctermbg=NONE        cterm=NONE
-    hi Structure      ctermfg=215         ctermbg=NONE        cterm=NONE
-    hi Todo           ctermfg=232         ctermbg=215         cterm=NONE
+    hi Structure      ctermfg=216         ctermbg=NONE        cterm=NONE
+    hi Todo           ctermfg=232         ctermbg=216         cterm=NONE
   endif
   if &background == "dark"
     hi CursorLine     ctermfg=NONE        ctermbg=234         cterm=NONE
