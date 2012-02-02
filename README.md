@@ -15,6 +15,7 @@ Download from vim.org
 Place in your `.vimrc.
 
     " syntax highlighting
+    set background=dark     " you can use `dark` or `light` as your background
     syntax on
     color mango
 
