@@ -1,12 +1,9 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.2
+" Version: 1.3
 
-"set background=dark
 set t_Co=256
 let g:colors_name = "mango"
-
-let green = 106
 
 " Colors: {{{
   if &background == "light"
