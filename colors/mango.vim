@@ -2,8 +2,10 @@
 " Maintainer:   Josh Perez <josh@goatslacker.com>
 " Version: 1.3
 
-set t_Co=256
-let g:colors_name = "mango"
+" mango.vim {{{
+  set t_Co=256
+  let g:colors_name = "mango"
+" }}}
 
 " Colors: {{{
   if &background == "light"
@@ -27,9 +29,7 @@ let g:colors_name = "mango"
   hi Silver   ctermfg=245         ctermbg=NONE        cterm=NONE
   hi White    ctermfg=255         ctermbg=NONE        cterm=NONE
 " }}}
-
-
-" SyntaxHighlighting: {
+" SyntaxHighlighting: {{{
   if &background == "light"
     hi CursorLine     ctermfg=NONE        ctermbg=194         cterm=NONE
     hi Normal         ctermfg=238         ctermbg=NONE        cterm=NONE
@@ -91,8 +91,7 @@ let g:colors_name = "mango"
   hi Underlined     ctermfg=NONE        ctermbg=NONE        cterm=underline
   hi Error          ctermfg=255         ctermbg=196         cterm=NONE
 " }}}
-
-" JavaScript: {
+" JavaScript: {{{
 " Other
 hi link javaScriptSpecial               Pink
 hi link javaScriptFloat                 Red
@@ -137,22 +136,18 @@ hi link javaScriptGlobalObjects   Purple
 hi link javaScriptExceptions      Red
 "syntax keyword javaScriptFutureKeys     abstract enum int short boolean export interface static byte extends long super char final native synchronized class float package throws goto private transient debugger implements protected volatile double import public
 hi link javaScriptFutureKeys      Black
-"  }
-
-" PHP: {
+"  }}}
+" PHP: {{{
 hi link phpFunctions          Pink
-" }
-
-" HTML: {
+" }}}
+" HTML: {{{
 hi link htmlTag               Blue
 hi link htmlTagName           Blue
-"}
-
-" Python: {
+"}}}
+" Python: {{{
 hi link pythonPreCondit       Blue
-" }
-
-" CSS_LESS: {
+" }}}
+" CSS_LESS: {{{
 hi link lessVariable      Blue
 hi link lessFunction      Purple
 hi link lessFuncDef       Purple
@@ -169,4 +164,17 @@ hi link cssTableAttr      Pink
 hi link cssAuralAttr      Pink
 hi link cssUIAttr         Pink
 hi link cssGeneratedContentAttr      Pink
-"}
+"}}}
+
+" MIT LICENSE {{{
+" The MIT License (MIT)
+" Copyright 2012 Josh Perez, http://www.goatslacker.com
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+" }}}
+
+" vim:foldmethod=marker:foldlevel=0
