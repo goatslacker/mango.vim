@@ -1,6 +1,6 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.4.0
+" Version: 1.4.1
 
 " mango.vim {{{
   set t_Co=256
@@ -10,15 +10,17 @@
 " Colors: {{{
   if &background == "light"
     let Black = "ctermfg=238 ctermbg=NONE cterm=NONE"
-    let Orange = "ctermfg=202 ctermbg=NONE cterm=NONE"
-    let Peach = "ctermfg=214 ctermbg=NONE cterm=NONE"
+    let Orange = "ctermfg=208 ctermbg=NONE cterm=NONE"
+    let Peach = "ctermfg=215 ctermbg=NONE cterm=NONE"
     let Purple = "ctermfg=141 ctermbg=NONE cterm=NONE"
+    let Red = "ctermfg=196 ctermbg=NONE cterm=NONE"
   endif
   if &background == "dark"
     let Black = "ctermfg=240 ctermbg=NONE cterm=NONE"
     let Orange = "ctermfg=214 ctermbg=NONE cterm=NONE"
     let Peach = "ctermfg=222 ctermbg=NONE cterm=NONE"
     let Purple = "ctermfg=153 ctermbg=NONE cterm=NONE"
+    let Red = "ctermfg=203 ctermbg=NONE cterm=NONE"
   endif
 
   let Green = "ctermfg=107 ctermbg=NONE cterm=NONE"
@@ -27,7 +29,6 @@
   let Pink = "ctermfg=205 ctermbg=NONE cterm=NONE"
   let Pink2 = "ctermfg=211 ctermbg=NONE cterm=NONE"
   let Purple2 = "ctermfg=164 ctermbg=NONE cterm=NONE"
-  let Red = "ctermfg=203 ctermbg=NONE cterm=NONE"
   let Silver = "ctermfg=245 ctermbg=NONE cterm=NONE"
   let White = "ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
