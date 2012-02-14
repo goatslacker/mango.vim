@@ -1,6 +1,6 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.4.2
+" Version: 1.4.3
 
 " mango.vim {{{
   set t_Co=256
@@ -116,6 +116,10 @@
     hi Underlined     ctermfg=NONE        ctermbg=NONE        cterm=underline
     hi Error          ctermfg=202         ctermbg=196         cterm=NONE
   endif
+" }}}
+
+" Syntax Overrides {{{
+hi link javaScriptFutureKeys Comment
 " }}}
 
 " MIT LICENSE {{{
