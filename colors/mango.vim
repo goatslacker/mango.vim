@@ -1,21 +1,22 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.4.3
+" Version: 1.4.5
 
 " mango.vim {{{
   set t_Co=256
   let g:colors_name = "mango"
+  let bgcolor = &background
 " }}}
 
 " Colors: {{{
-  if &background == "light"
+  if bgcolor == "light"
     let Black = "ctermfg=238 ctermbg=NONE cterm=NONE"
-    let Orange = "ctermfg=208 ctermbg=NONE cterm=NONE"
-    let Peach = "ctermfg=215 ctermbg=NONE cterm=NONE"
+    let Orange = "ctermfg=202 ctermbg=NONE cterm=NONE"
+    let Peach = "ctermfg=209 ctermbg=NONE cterm=NONE"
     let Purple = "ctermfg=141 ctermbg=NONE cterm=NONE"
     let Red = "ctermfg=196 ctermbg=NONE cterm=NONE"
   endif
-  if &background == "dark"
+  if bgcolor == "dark"
     let Black = "ctermfg=240 ctermbg=NONE cterm=NONE"
     let Orange = "ctermfg=214 ctermbg=NONE cterm=NONE"
     let Peach = "ctermfg=222 ctermbg=NONE cterm=NONE"
@@ -34,7 +35,7 @@
 " }}}
 
 " Light Background: {{{
-  if &background == "light"
+  if bgcolor == "light"
     exe "hi Boolean "         .Red
     exe "hi Constant "        .Blue
     exe "hi Character "       .Blue
@@ -76,7 +77,7 @@
   endif
 " }}}
 " Dark Background: {{{
-  if &background == "dark"
+  if bgcolor == "dark"
     exe "hi Boolean "         .Red
     exe "hi Constant "        .Blue
     exe "hi Character "       .Blue
