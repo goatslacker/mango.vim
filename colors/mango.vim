@@ -94,7 +94,7 @@
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
     exe "hi Keyword "         .Peach
-    exe "hi Label "           .Peach
+    exe "hi Label "           .Blue
     exe "hi LineNr "          .Black
     exe "hi Macro "           .Purple
     exe "hi Normal "          .White
