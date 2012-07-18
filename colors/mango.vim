@@ -10,28 +10,28 @@
 
 " Colors: {{{
   if bgcolor == "light"
-    let Black = "ctermfg=238 ctermbg=NONE cterm=NONE"
-    let Orange = "ctermfg=202 ctermbg=NONE cterm=NONE"
-    let Peach = "ctermfg=209 ctermbg=NONE cterm=NONE"
-    let Purple = "ctermfg=141 ctermbg=NONE cterm=NONE"
-    let Red = "ctermfg=196 ctermbg=NONE cterm=NONE"
+    let Black = "guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE"
+    let Orange = "guifg=#ff5f00 guibg=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE"
+    let Peach = "guifg=#ff875f guibg=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE"
+    let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
+    let Red = "guifg=#ff0000 guibg=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE"
   endif
   if bgcolor == "dark"
-    let Black = "ctermfg=240 ctermbg=NONE cterm=NONE"
-    let Orange = "ctermfg=214 ctermbg=NONE cterm=NONE"
-    let Peach = "ctermfg=222 ctermbg=NONE cterm=NONE"
-    let Purple = "ctermfg=153 ctermbg=NONE cterm=NONE"
-    let Red = "ctermfg=203 ctermbg=NONE cterm=NONE"
+    let Black = "guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE"
+    let Orange = "guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE"
+    let Peach = "guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE"
+    let Purple = "guifg=#afd7ff guibg=NONE gui=NONE ctermfg=153 ctermbg=NONE cterm=NONE"
+    let Red = "guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE"
   endif
 
-  let Green = "ctermfg=107 ctermbg=NONE cterm=NONE"
-  let Gray = "ctermfg=250 ctermbg=NONE cterm=NONE"
-  let Blue = "ctermfg=68 ctermbg=NONE cterm=NONE"
-  let Pink = "ctermfg=205 ctermbg=NONE cterm=NONE"
-  let Pink2 = "ctermfg=211 ctermbg=NONE cterm=NONE"
-  let Purple2 = "ctermfg=164 ctermbg=NONE cterm=NONE"
-  let Silver = "ctermfg=245 ctermbg=NONE cterm=NONE"
-  let White = "ctermfg=255 ctermbg=NONE cterm=NONE"
+  let Green = "guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE"
+  let Gray = "guifg=#bcbcbc guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE"
+  let Blue = "guifg=#5f87d7 guibg=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE"
+  let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE"
+  let Pink2 = "guifg=#ff87af guibg=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE"
+  let Purple2 = "guifg=#d700d7 guibg=NONE gui=NONE ctermfg=164 ctermbg=NONE cterm=NONE"
+  let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
+  let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
 
 " Light Background: {{{
@@ -71,10 +71,10 @@
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Purple2
 
-    hi CursorLine     ctermfg=NONE        ctermbg=231         cterm=NONE
-    hi Todo           ctermfg=232         ctermbg=216         cterm=NONE
-    hi Underlined     ctermfg=NONE        ctermbg=NONE        cterm=underline
-    hi Error          ctermfg=202         ctermbg=196         cterm=NONE
+    hi CursorLine   guifg=NONE      guibg=#ffffff   gui=NONE      ctermfg=NONE      ctermbg=231       cterm=NONE
+    hi Todo         guifg=#080808   guibg=#ffaf87   gui=NONE      ctermfg=232       ctermbg=216       cterm=NONE
+    hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
+    hi Error        guifg=#ff5f00   guibg=#ff0000   gui=NONE      ctermfg=202       ctermbg=196       cterm=NONE
   endif
 " }}}
 " Dark Background: {{{
@@ -114,10 +114,10 @@
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Purple2
 
-    hi CursorLine     ctermfg=NONE        ctermbg=234         cterm=NONE
-    hi Todo           ctermfg=232         ctermbg=220         cterm=NONE
-    hi Underlined     ctermfg=NONE        ctermbg=NONE        cterm=underline
-    hi Error          ctermfg=202         ctermbg=196         cterm=NONE
+    hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
+    hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220       cterm=NONE
+    hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
+    hi Error        guifg=#ff5f00   guibg=#ff0000   gui=NONE      ctermfg=202       ctermbg=196       cterm=NONE
   endif
 " }}}
 
