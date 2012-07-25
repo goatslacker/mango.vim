@@ -72,6 +72,7 @@
     exe "hi TypeDef "         .Purple2
 
     hi CursorLine   guifg=NONE      guibg=#ffffff   gui=NONE      ctermfg=NONE      ctermbg=231       cterm=NONE
+    hi ColorColumn  guifg=#ff0000   guibg=#ffffff   gui=NONE      ctermfg=203       ctermbg=231       cterm=NONE
     hi Todo         guifg=#080808   guibg=#ffaf87   gui=NONE      ctermfg=232       ctermbg=216       cterm=NONE
     hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
     hi Error        guifg=#ff5f00   guibg=#ff0000   gui=NONE      ctermfg=202       ctermbg=196       cterm=NONE
@@ -115,6 +116,7 @@
     exe "hi TypeDef "         .Purple2
 
     hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
+    hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
     hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220       cterm=NONE
     hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
     hi Error        guifg=#ff5f00   guibg=#ff0000   gui=NONE      ctermfg=202       ctermbg=196       cterm=NONE
