@@ -1,11 +1,12 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.4.6
+" Version: 1.4.7
 
 " mango.vim {{{
   set t_Co=256
   let g:colors_name = "mango"
   let bgcolor = &background
+  highlight clear SignColumn
 " }}}
 
 " Colors: {{{
@@ -121,10 +122,6 @@
     hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
     hi Error        guifg=#ff5f00   guibg=#ff0000   gui=NONE      ctermfg=202       ctermbg=196       cterm=NONE
   endif
-" }}}
-
-" Syntax Overrides {{{
-hi link javaScriptFutureKeys Comment
 " }}}
 
 " MIT LICENSE {{{
