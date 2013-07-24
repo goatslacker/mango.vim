@@ -1,6 +1,6 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.4.8
+" Version: 1.5.0
 
 " mango.vim {{{
   set t_Co=256
