@@ -1,6 +1,6 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
-" Version: 1.5.0
+" Version: 1.5.1
 
 " mango.vim {{{
   set t_Co=256
@@ -29,7 +29,7 @@
   let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE"
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
-  let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
+  let White = "guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
 " }}}
 
 " Light Background: {{{
